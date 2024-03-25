@@ -3,7 +3,7 @@ require_once('login_helper.php');
 
 // Verificar si el usuario está autenticado
 if (!is_authenticated()) {
-    header('Location: index.php');
+    header('Location: index.html');
     exit();
 }
 
